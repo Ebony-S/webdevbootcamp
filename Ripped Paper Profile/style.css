@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    width: 100vw;
+	height: 100vh;
+    background-image: url('images/ripped_paper_trans.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* also works with below effect + filter: brightness(.2), however best result is without effect altogether since center is transparent
+    mix-blend-mode:darken; *****/
+  }
+  
+
+  .image {
+    background-image: url('images/man.png');
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: 50%;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+     
+  }
