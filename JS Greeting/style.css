@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+
+body {
+    color: blueviolet;
+    font-size: 5em;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 1em;
+}
